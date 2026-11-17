@@ -1,80 +1,58 @@
-# Cybersecurity & Networking Portfolio
+# Cybersecurity and Networking Learning Portfolio
 
-This repository documents my technical learning, practical exercises, projects, and progression in networking and cybersecurity during my SIWES industrial training.
+This repository records technical learning, practical exercises, and project
+work in computer networking and cybersecurity. It was developed during SIWES
+industrial training at Nascomsoft Embedded, beginning with networking
+fundamentals and progressing toward network security concepts.
 
-## Areas of Focus
+## What is included
 
-### Networking
-- Network Fundamentals
-- OSI and TCP/IP Models
-- IPv4 and IPv6
-- IP Addressing
-- Subnetting
-- Ethernet and Layer 2 Networking
-- Network Devices
-- Routing and Switching
-- Network Configuration
-- Access Control
+### Networking notes
 
-### Cybersecurity
-- Cybersecurity Fundamentals
-- Security Frameworks
-- Security Protocols
-- Threats and Vulnerabilities
-- Security Labs and Practical Exercises
+The `networking/` directory contains Markdown learning notes organized by
+topic:
 
-## Practical Projects
+- `fundamentals/` — networking basics and OSI/TCP-IP models
+- `ip-addressing/` — IPv4/IPv6 addressing and binary/addressing concepts
+- `subnetting/` — subnetting fundamentals and FLSM/VLSM
+- `ethernet-layer2/` — Ethernet frames and unicast, multicast, and broadcast
+- `network-devices/` — common networking devices
+- `routing-switching/` — routing and switching fundamentals
 
-### University Network Design
-A multi-department university network designed and implemented using Cisco Packet Tracer, including IP addressing, VLANs, routing, and access control policies.
+### Practical project
 
-### Packet Tracer Labs
-A collection of networking configuration and troubleshooting exercises carried out using Cisco Packet Tracer.
+`projects/university-network/` documents a Cisco Packet Tracer design for a
+multi-department university network. It covers departmental VLANs, addressing,
+inter-VLAN routing, ACL-based communication controls, connectivity checks, and
+configuration troubleshooting.
 
-## SIWES
+## Topics practiced
 
-The practical work documented in this repository was developed during my SIWES industrial training at Nascomsoft Embedded.
+- Network fundamentals and OSI/TCP-IP layering
+- IPv4 and IPv6 addressing, binary conversion, and subnetting
+- Ethernet and Layer 2 concepts
+- VLANs, switching, routing, and DHCP
+- Access Control Lists and network segmentation
+- Connectivity verification and configuration troubleshooting
 
-The training progression began with computer networking and gradually moved toward network security and broader cybersecurity concepts.
+## Tools
 
-## Repository Structure
+- Cisco Packet Tracer for network simulation and configuration practice
+- Markdown for notes and project documentation
 
-- `networking/` — Networking concepts and technical notes
-- `projects/` — Practical networking and cybersecurity projects
-- `cybersecurity/` — Cybersecurity concepts, frameworks, protocols, threats, and security labs
-- `documentation/` — SIWES learning records and technical documentation
+## How to explore
 
-## Current Progress
+Start with `networking/fundamentals/networking-basics.md`, then follow the
+topic directories. For the applied project, see
+`projects/university-network/README.md`.
 
-### Completed
-- Computer networking fundamentals
-- OSI and TCP/IP models
-- IPv4 and IPv6
-- Binary and IPv4 conversion
-- IP addressing
-- Subnetting
-- FLSM and VLSM
-- Ethernet and LAN frame structure
-- Network devices
-- Data encapsulation
-- Network architectures
-- Ethernet cable termination
-- Peer-to-peer networking
-- File and printer sharing
-- DHCP configuration
-- Router-to-router communication
-- Cisco Packet Tracer
-- Network access control using ACLs
-- Multi-department university network design
+The repository is a learning portfolio and documentation set. It is not a
+production network configuration or a security assessment of a live target.
+Packet Tracer labs are simulations; verify commands and designs against the
+requirements of the actual environment before deployment.
 
-### Currently Learning
-- Cybersecurity fundamentals
-- Security frameworks
-- Security protocols
-- Threats and vulnerabilities
-- Practical security concepts and labs
+## Progress
 
-## Objective
-
-The goal of this repository is to maintain a structured record of my practical development and demonstrate the progression of my skills from networking fundamentals into cybersecurity and security-focused practical work.
-
+The repository documents completed fundamentals and the university-network
+exercise while cybersecurity concepts and practical security topics continue
+to develop. New notes and labs may be added as training progresses.
